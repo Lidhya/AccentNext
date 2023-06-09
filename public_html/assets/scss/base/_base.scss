@@ -11,4 +11,27 @@ body{
 	color: $body-color;
 	background: $body-bg;
 	box-sizing: border-box;
+	scroll-behavior:smooth;
 }
+
+/* Modify the track (background) of the scroll bar */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+/* Modify the thumb (scrolling handle) of the scroll bar */
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+}
+
+/* Modify the corner of the scroll bar */
+::-webkit-scrollbar-corner {
+  background-color: #f1f1f1;
+}
+
+/* Modify the height of the thumb relative to the track */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+  
